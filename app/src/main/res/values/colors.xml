@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#392737</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="movie_details_background_color">#9e000000</color>
+    <color name="alpha">#00000000</color>
+    <color name="logo_background">#a27aff</color>
+    
+    <color name="main_frame_background_color">#F7F7F7</color>
+    <color name="warring_text_color">#959595</color>
+</resources>
