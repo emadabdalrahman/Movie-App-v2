@@ -1,4 +1,4 @@
-# Movie_app_v2
+# Movie App V2
 
 Final Project of the New Version of Developing Android Apps Course by Udacity (Part of Nanodegree Program)
 
