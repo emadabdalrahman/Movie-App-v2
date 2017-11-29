@@ -15,3 +15,7 @@ App helps you to find top movies in box office, upcoming, now playing, top rated
 * [picasso](http://square.github.io/picasso/)
 * [okhttp3](http://square.github.io/okhttp/)
 * [parceler](https://github.com/johncarl81/parceler)
+
+## Notes
+
+* The API key had been removed from project so you need to CREATE you own KEY from TMDB OR project going to crash 
