@@ -19,7 +19,6 @@ public class MovieDetailsActivity extends AppCompatActivity {
         toolbar.setTitleTextColor(Color.WHITE);
         getSupportActionBar().setTitle("Movie Details");
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
     }
 
 

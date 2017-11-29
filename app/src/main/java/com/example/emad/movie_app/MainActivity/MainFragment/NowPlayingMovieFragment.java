@@ -31,6 +31,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+import static com.example.emad.movie_app.Utilities.FinalData.API_KEY;
 import static com.example.emad.movie_app.Utilities.FinalData.MOVIE_NOW_PLAYING_LOADER_ID;
 
 /**
@@ -106,7 +107,7 @@ public class NowPlayingMovieFragment extends Fragment implements LoaderManager.L
                     try {
                         OkHttpClient mClient = new OkHttpClient();
                         Request mRequest = new Request.Builder()
-                                .url("https://api.themoviedb.org/3/movie/now_playing?api_key=c8e1ac8910c753600986ed6d71f88e29&language=en-US&page=" + i + "")
+                                .url("https://api.themoviedb.org/3/movie/now_playing?api_key="+API_KEY+"&language=en-US&page=" + i + "")
                                 .build();
                         Response mResponse = mClient.newCall(mRequest).execute();
                         mMoviesResponse.add(mResponse.body().string());
