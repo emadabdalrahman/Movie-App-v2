@@ -6,7 +6,7 @@ package com.example.emad.movie_app.Utilities;
 
 public class FinalData {
 
-    public static String API_KEY = "c8e1ac8910c753600986ed6d71f88e29";
+    public static String API_KEY = "";
     public static int MOVIE_DETAILS_LOADER_ID = 11;
     public static int MOVIE_POPULAR_LOADER_ID = 22;
     public static int MOVIE_TOP_RATED_LOADER_ID = 33;
